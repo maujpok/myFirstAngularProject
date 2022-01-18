@@ -1,1 +1,46 @@
-<h2>dashboard works!</h2>
+<div class="Interpolation">
+    <h1>Interpolation</h1>
+    <h2>Mi nombre es {{getNombre()}}</h2>
+    <h2>1+1 = {{1+1}}</h2>
+    <h2>La suma es igual a {{suma(2,5)}}</h2>
+</div>
+<br><hr width="600px">
+
+<div class="Property_Binding">
+    <h1>Property Binding</h1>
+    <img [src]="urlImg" width=220px>
+    <br><br>
+    <input type="text" [placeholder]="texto">
+</div>
+<br><hr width="600px">
+
+<div class="Event_Binding">
+    <h1>{{titulo}}</h1>
+    <input type="text" [placeholder]="texto" [disabled]="isDisabled">
+    <button (click)="changeText()">Change title!</button>
+    <button (click)="setInput()">Change input box!</button>
+</div>
+<br><hr width="600px">
+
+<!-- <div>
+    <div class="padre-hijo">
+        <h1>{{titulo2}}</h1>
+        <h3>Father->Son</h3>
+        <button (click)="changeTextCard()">Change text</button>
+        <br>
+        <app-card [textCard]="texto2"></app-card>
+    </div>
+    <hr width="300px">
+    <div class="hijo-padre">
+        <h3>Son->Father</h3>
+        <h2>{{texto3}}</h2>
+        <app-card (nuevoEvento)="changeTextCard2($event)"></app-card>
+        <h1>{{texto3}}</h1>
+    </div>
+</div> -->
+
+<div class="twoway">
+    <h1>{{titulo3}}</h1>
+    <h3>{{twoway}}</h3>
+    <app-card [(nuevoTexto)]="twoway"></app-card>
+</div>

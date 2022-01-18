@@ -1,0 +1,13 @@
+<div class="container">
+    <br>
+    <h1>Listado de Usuarios</h1>
+    <h3 *ngIf="listaUsuarios.length > 5">Usuarios totales: {{listaUsuarios.length}}</h3>
+    <hr>
+    <h2>{{texto}}</h2>
+    <input type="text" [(ngModel)] = "texto">
+    <div class="row">
+        <div *ngFor="let usuario of listaUsuarios" class="col-md-4">
+            <app-card-copy [user] = "usuario"></app-card-copy>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<!-- <div class="card" style="width: 18rem; margin: 0.5rem; box-shadow: 3px 3px 3px lightgray;"> -->
+    <!-- <img src="..." class="card-img-top" alt="..."> -->
+    <!-- <div class="card-body">
+      <h5 class="card-title" style="font-weight: bold;">{{nombre}}</h5>
+      <p class="card-text" [ngSwitch]="genero">
+        {{email}}
+        <br> -->
+        <!-- <span [ngStyle]="{'color': genero == 'Masculino' ? 'blue' : 'red'}" style="font-weight: bold;"> -->
+        <!-- <span [ngClass]="genero == 'Masculino' ? 'badge bg-dark' : 'badge bg-primary'"> -->
+        <!-- <span *ngSwitchCase="'Masculino'" class="badge bg-dark">
+          {{genero}}
+        </span>
+        <span *ngSwitchCase="'Femenino'" class="badge bg-primary">
+          {{genero}}
+        </span>
+        <span *ngSwitchDefault class="badge bg-warning">
+          Indefinido
+        </span>
+        </p>
+    </div>
+</div> -->
+
+<div class="card" style="width: 18rem; margin: 0.5rem; box-shadow: 3px 3px 3px lightgray;">
+  <!-- <img src="..." class="card-img-top" alt="..."> -->
+  <div class="card-body">
+    <h5 class="card-title">{{nombre}}</h5>
+    <p class="card-text">
+      {{email}}
+      <br>
+      <span>
+        {{genero}}
+      </span>
+    </p>
+  </div>
+</div>

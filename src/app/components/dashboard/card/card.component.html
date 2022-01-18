@@ -1,0 +1,7 @@
+<!-- <h3>{{ textCard }}</h3>
+
+<input type="text" #idInput>
+<button (click)="cambiarTextoPadre(idInput.value)">Cambiar texto!</button> -->
+
+<input type="text" [value]="nuevoTexto" #idInput2>
+<button (click)="cambiarTexto2way(idInput2.value)">Cambiar texto!</button>
