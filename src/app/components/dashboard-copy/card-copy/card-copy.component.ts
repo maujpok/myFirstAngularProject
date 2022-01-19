@@ -19,8 +19,8 @@ export class CardCopyComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.nombre=this.user.nombre;
+    this.nombre=this.user.name;
     this.email=this.user.email;
-    this.genero=this.user.genero;
+    this.genero=this.user.gender;
   }
 }
