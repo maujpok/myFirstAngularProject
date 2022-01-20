@@ -1,10 +1,11 @@
 .inicio {
     text-align: center;
-    height: 85vh;
+    height: 80vh;
 }
 
 section {
-    background: #c0c0aa;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: #c0c0aa;
+    background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);
+    background: linear-gradient(to right, #1cefff, #c0c0aa); */
+    background-image: url('https://uploads-ssl.webflow.com/5f2c07287a7a746048684529/612cae6ebfd2f367c6e7cfa8_1_uGRvXkzzytZ-8YxKaxYEBA.png');
 }
