@@ -15,6 +15,9 @@ import { CardCopyComponent } from './components/dashboard-copy/card-copy/card-co
 import { InicioComponent } from './components/inicio/inicio.component';
 import { AppRoutingModule } from './app-routing.module';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { ListadoUsuariosComponent } from './components/dashboard-copy/listado-usuarios/listado-usuarios.component';
+import { UsuarioComponent } from './components/dashboard-copy/usuario/usuario.component';
+import { SpinnerComponent } from './components/spinner/spinner.component';
 
 
 @NgModule({
@@ -28,7 +31,10 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     DashboardCopyComponent,
     CardCopyComponent,
     InicioComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    ListadoUsuariosComponent,
+    UsuarioComponent,
+    SpinnerComponent
   ],
   imports: [
     BrowserModule,

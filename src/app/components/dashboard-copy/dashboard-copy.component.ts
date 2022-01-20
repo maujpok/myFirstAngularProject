@@ -12,14 +12,10 @@ export class DashboardCopyComponent implements OnInit {
   
 
   constructor(private usuarioService: UsuarioService) {
-    this.usuarioService.getUsuarios().subscribe(data => {
-      this.listaUsuarios = data.data;
-    })
   }
 
   ngOnInit(): void {
   }
-
   // onChange(evento: string): void {
   //   this.usuarioService.modificarTexto(this.texto);
   // }

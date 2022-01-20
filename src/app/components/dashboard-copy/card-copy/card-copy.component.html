@@ -20,16 +20,18 @@
     </div>
 </div> -->
 
-<div class="card" style="width: 18rem; margin: 0.5rem; box-shadow: 3px 3px 3px lightgray;">
-  <!-- <img src="..." class="card-img-top" alt="..."> -->
+<!-- <div class="card" style="width: 18rem; margin: 0.5rem; box-shadow: 3px 3px 3px lightgray;">
   <div class="card-body">
     <h5 class="card-title">{{nombre}}</h5>
-    <p class="card-text">
-      {{email}}
-      <br>
-      <span>
-        {{genero}}
-      </span>
-    </p>
+    <button routerLink="usuario/{{this.id}}">Detalles</button>
   </div>
-</div>
+</div> -->
+
+<section>
+  <div class="card text-center" style="width: 18rem; height: 7rem; margin: 0.5rem; box-shadow: 3px 3px 3px lightgray;">
+    <div class="card-body">
+      <h5 class="card-title">{{nombre}}</h5>
+      <button class="btn btn-primary" (click)="verDetalles()">Detalles</button>
+    </div>
+  </div>
+</section>

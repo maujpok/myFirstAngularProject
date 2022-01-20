@@ -14,13 +14,8 @@
     </div>
 </div> -->
 
-<div class="container">
-    <br>
-    <h1>Listado de Usuarios</h1>
-    <hr>
-    <div class="row">
-        <div *ngFor="let usuario of listaUsuarios" class="col-md-4">
-            <app-card-copy [user] = "usuario"></app-card-copy>
-        </div>
+<section>
+    <div class="container">
+        <router-outlet></router-outlet>
     </div>
-</div>
+</section>
